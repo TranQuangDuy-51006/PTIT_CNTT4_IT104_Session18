@@ -34,7 +34,7 @@ export default function TodoList() {
         return {
           ...state,
           jobs: [...state.jobs, action.payload],
-          new_title: "", // reset input sau khi add
+          new_title: "",
         };
 
       case "DELETE":
